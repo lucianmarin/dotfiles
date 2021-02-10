@@ -1,0 +1,8 @@
+include /usr/local/Cellar/nano/5.5/share/nano/*.nanorc
+
+set autoindent
+set historylog
+set linenumbers
+set softwrap
+set tabsize 4
+set tabstospaces
