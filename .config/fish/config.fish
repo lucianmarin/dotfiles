@@ -1,18 +1,13 @@
 set -p PATH /Applications/Postgres.app/Contents/Versions/12/bin
 set -p PATH /Applications/TextMate.app/Contents/MacOS
 set -p PATH ~/.cargo/bin
-set -p PATH /Users/lucian/GitHub/flutter/bin
-set -p PATH /usr/local/opt/ruby/bin
-set -p PATH /usr/local/lib/ruby/gems/2.7.0/bin
-set -p PATH /usr/local/sbin
+set -p PATH ~/GitHub/flutter/bin
 set -p PATH /usr/local/Cellar/janet/1.13.1/bin
+set -p PATH /usr/local/lib/ruby/gems/2.7.0/bin
+set -p PATH /usr/local/opt/ruby/bin
+set -p PATH /usr/local/sbin
 
 set -gx EDITOR /usr/local/bin/nano
-
-set -gx DOCKER_TLS_VERIFY "1";
-set -gx DOCKER_HOST "tcp://192.168.64.2:2376";
-set -gx DOCKER_CERT_PATH "/Users/lucian/.docker/machine/machines/default";
-set -gx DOCKER_MACHINE_NAME "default";
 
 set fish_prompt_pwd_dir_length 3
 
@@ -35,14 +30,4 @@ set __fish_git_prompt_char_cleanstate "_"
 
 function fish_prompt
     printf "%s%s " (prompt_pwd) (__fish_git_prompt)
-end
-
-function newdir
-    mkdir $argv
-    cd $argv
-end
-
-function newgit
-    newdir $argv
-    git init 
 end
