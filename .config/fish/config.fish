@@ -9,7 +9,7 @@ set -p PATH /usr/local/sbin
 
 set -gx EDITOR /usr/local/bin/nano
 
-set fish_prompt_pwd_dir_length 3
+set fish_prompt_pwd_dir_length 5
 
 set __fish_git_prompt_showdirtystate "yes"
 set __fish_git_prompt_showstashstate "yes"
