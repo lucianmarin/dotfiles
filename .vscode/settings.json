@@ -8,9 +8,7 @@
     "editor.renderIndentGuides": false,
     "editor.renderLineHighlight": "gutter",
     "editor.renderWhitespace": "boundary",
-    "editor.rulers": [
-        80
-    ],
+    "editor.rulers": [ 80 ],
     "editor.scrollBeyondLastLine": false,
     "editor.trimAutoWhitespace": true,
     "editor.wordWrap": "on",
@@ -33,16 +31,14 @@
     "python.autoComplete.addBrackets": true,
     "python.formatting.provider": "yapf",
     "python.languageServer": "Pylance",
-    "python.linting.flake8Args": [
-        "--ignore",
-        "E501 R503"
-    ],
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
     "python.pythonPath": "/usr/local/bin/python3",
     "python.showStartPage": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.rendererType": "dom",
     "window.nativeTabs": true,
     "window.titleBarStyle": "native",
     "window.zoomLevel": 0,
@@ -54,5 +50,5 @@
     "workbench.settings.editor": "json",
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.tree.renderIndentGuides": "none"
+    "workbench.tree.renderIndentGuides": "none",
 }
