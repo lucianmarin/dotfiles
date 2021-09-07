@@ -1,8 +1,7 @@
-include /usr/local/Cellar/nano/5.5/share/nano/*.nanorc
+include /usr/local/Cellar/nano/5.*/share/nano/*.nanorc
 
 set autoindent
 set minibar
-set morespace
 set historylog
 set linenumbers
 set softwrap
