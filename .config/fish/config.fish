@@ -31,3 +31,9 @@ set __fish_git_prompt_char_cleanstate "_"
 function fish_prompt
     printf "%s%s " (prompt_pwd) (__fish_git_prompt)
 end
+
+function apt_update
+    sudo apt-get update
+    sudo apt-get -y upgrade
+    sudo apt-get -y autoremove
+end
