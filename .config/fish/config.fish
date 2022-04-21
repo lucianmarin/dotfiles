@@ -1,10 +1,6 @@
-set -p PATH /Applications/Postgres.app/Contents/Versions/12/bin
+set -p PATH /Applications/Postgres.app/Contents/Versions/14/bin
 set -p PATH /Applications/TextMate.app/Contents/MacOS
-set -p PATH ~/.cargo/bin
-set -p PATH ~/GitHub/flutter/bin
-set -p PATH /usr/local/Cellar/janet/1.13.1/bin
-set -p PATH /usr/local/lib/ruby/gems/2.7.0/bin
-set -p PATH /usr/local/opt/ruby/bin
+set -p PATH /Applications/mpv.app/Contents/MacOS/
 set -p PATH /usr/local/sbin
 
 set -gx EDITOR /usr/local/bin/nano
