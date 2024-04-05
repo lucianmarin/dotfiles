@@ -28,6 +28,10 @@ function fish_prompt
     printf "%s%s " (prompt_pwd) (__fish_git_prompt)
 end
 
+function nofiles
+    du -a | cut -d/ -f2 | sort | uniq -c | sort -nr
+end
+
 function apt_update
     sudo apt-get update
     sudo apt-get -y upgrade
