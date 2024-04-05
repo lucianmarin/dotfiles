@@ -32,7 +32,7 @@ function nofiles
     du -a | cut -d/ -f2 | sort | uniq -c | sort -nr
 end
 
-function apt_update
+function aptdate
     sudo apt-get update
     sudo apt-get -y upgrade
     sudo apt-get -y autoremove
