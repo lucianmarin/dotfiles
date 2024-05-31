@@ -15,7 +15,7 @@
   "theme": "One Light",
   "tabs": {
     "git_status": true,
-    "close_position": "left"
+    "close_position": "right"
   },
   "wrap_guides": [80],
   "soft_wrap": "editor_width",
