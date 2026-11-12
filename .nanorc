@@ -1,4 +1,4 @@
-include /usr/local/Cellar/nano/*/share/nano/*.nanorc
+include /opt/homebrew/Cellar/nano/*/share/nano/*.nanorc
 
 set autoindent
 set historylog
