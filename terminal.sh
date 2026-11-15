@@ -16,3 +16,7 @@ hdiutil makehybrid -iso -joliet -o name.iso name.cdr
 # qemu
 qemu-system-x86_64 -smp threads=2 -m 2048 -accel hvf -vga virtio -hda haiku.qcow2 -full-screen -cdrom haiku-release-anyboot.iso
 qemu-img create -f qcow2 vdisk.qcow2 4G
+
+# setup colima
+brew install colima docker docker-compose
+colima start --disk 64 --root-disk 1
