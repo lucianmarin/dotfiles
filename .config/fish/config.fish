@@ -4,8 +4,7 @@ set -Ux LANG en_US.UTF-8
 set -Ux LC_ALL en_US.UTF-8
 
 # add binaries to PATH
-set -p PATH /Applications/Postgres.app/Contents/Versions/14/bin
-set -p PATH /Applications/TextMate.app/Contents/MacOS
+set -p PATH /Applications/Postgres.app/Contents/Versions/18/bin
 set -p PATH /Applications/mpv.app/Contents/MacOS/
 set -p PATH /usr/local/sbin
 
@@ -14,6 +13,9 @@ set -gx TMPDIR ~/tmp
 
 # default editor
 set -gx EDITOR /usr/local/bin/nano
+
+# fix opencode
+set -gx OTUI_USE_ALTERNATE_SCREEN 0
 
 set fish_prompt_pwd_dir_length 5
 
@@ -38,11 +40,11 @@ function fish_prompt
     printf "%s%s " (prompt_pwd) (__fish_git_prompt)
 end
 
-function count_files
+function counter
     du -a | cut -d/ -f2 | sort | uniq -c | sort -nr
 end
 
-function apt_upgrade
+function upgrader
     sudo apt-get update
     sudo apt-get -y upgrade
     sudo apt-get -y autoremove
