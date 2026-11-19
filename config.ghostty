@@ -37,8 +37,6 @@ font-thicken-strength = 0
 window-padding-x = 10
 window-padding-y = 10
 
-# window-padding-x = 2
-#
 # # Spacing around the equals sign does not matter.
 # # All of these are identical:
 # key=value
