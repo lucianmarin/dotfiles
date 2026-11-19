@@ -1,0 +1,17 @@
+bun
+cairo
+ffmpeg
+fish
+goaccess
+kubernetes-cli
+nim
+node
+pandoc
+php
+python@3.14
+qemu
+ruby
+rust
+sassc
+wget
+woff2
