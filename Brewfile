@@ -30,8 +30,6 @@ brew "node"
 brew "php"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
-# Generic machine emulator and virtualizer
-brew "qemu"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Safe, concurrent, practical language
