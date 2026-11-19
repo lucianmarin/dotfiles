@@ -1,3 +1,5 @@
+# Incredibly fast JavaScript runtime, bundler, test runner, and package manager
+brew "bun"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima", restart_service: :changed
 # Pack, ship and run any application as a lightweight container
@@ -16,14 +18,20 @@ brew "gh"
 brew "go"
 # Log analyzer and interactive viewer for the Apache Webserver
 brew "goaccess"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Statically typed compiled systems programming language
 brew "nim"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# General-purpose scripting language
+brew "php"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
+# Generic machine emulator and virtualizer
+brew "qemu"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Safe, concurrent, practical language
@@ -32,6 +40,8 @@ brew "rust"
 brew "sassc"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Internet file retriever
+brew "wget"
 # Utilities to create and convert Web Open Font File (WOFF) files
 brew "woff2"
 npm "@github/copilot"
